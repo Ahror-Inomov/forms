@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Encode Sans";
+  font-weight: 400;
+  font-display: swap; 
+  src:url("../fonts/encodenormal.woff2") format("woff2"),
+       url("../fonts/encodenormal.woff") format("woff");
+}
+@font-face {
+  font-family: "Encode Sans";
+  font-weight: 600;
+  font-display: swap; 
+  src: url("../fonts/encodesemi-bold.woff2") format("woff2"), 
+       url("../fonts/encodesemi-bold.woff") format("woff");
+}

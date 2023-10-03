@@ -1,0 +1,13 @@
+@use "./mixins";
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+body {
+  @include mixins.body-style("Encode Sans", 400, #f7f6f3);
+}
